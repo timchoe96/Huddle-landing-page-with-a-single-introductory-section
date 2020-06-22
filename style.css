@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  position: relative;
+  background-image: url("./images/bg-desktop.svg");
+  background-color: #674baf;
+  height: 100vh;
+}
+
+main img {
+  margin: 30px 0 0 40px;
+}
+
+main div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+}
+
+main div aside {
+  margin-left: 40px;
+}
+
+main div aside h1 {
+  font-family: 'Poppins';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+main div aside p {
+  font-family: 'Open Sans';
+  padding-right: 200px;
+  margin: 20px 0;
+}
+
+main div aside button {
+  background: white;
+  border-style: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: 'Poppins';
+  color: #674baf;
+  font-size: 16px;
+  -webkit-box-shadow: 5px 5px 10px -5px black;
+          box-shadow: 5px 5px 10px -5px black;
+}
+
+main .icons {
+  position: absolute;
+  font-size: 30px;
+  right: 50px;
+  bottom: 50px;
+}
+
+main .icons i {
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  main {
+    position: relative;
+    background-image: url("./images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: #674baf;
+    height: 100vh;
+  }
+  main .logo {
+    width: 120px;
+    height: auto;
+    margin: 30px 0 0 40px;
+  }
+  main img {
+    margin: 50px auto 0;
+    width: 90vw;
+    height: auto;
+  }
+  main div {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #ffffff;
+  }
+  main div aside {
+    text-align: center;
+    margin: 0;
+  }
+  main div aside h1 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+  }
+  main div aside h1:nth-child(1) {
+    margin-top: 40px;
+  }
+  main div aside p {
+    font-family: 'Open Sans';
+    padding: 0 38px;
+    margin: 20px 0 0 0;
+  }
+  main div aside button {
+    background: white;
+    border-style: none;
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    font-family: 'Poppins';
+    color: #674baf;
+    font-size: 14px;
+    -webkit-box-shadow: 5px 5px 10px -5px black;
+            box-shadow: 5px 5px 10px -5px black;
+    margin-top: 30px;
+  }
+  main .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: absolute;
+    font-size: 30px;
+    right: 120px;
+    bottom: 50px;
+  }
+  main .icons i {
+    margin: 0 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
